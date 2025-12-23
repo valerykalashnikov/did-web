@@ -46,7 +46,7 @@
         "cluster": "Cluster-A",
         "purpose": "Ecosystem onboarding",
         "homepage": "https://valerykalashnikov.github.io/did-web/",
-        "didDocument": "https://valerykalashnikov.github.io/did-web/.well-known/did.json"
+        "didDocument": "https://valerykalashnikov.github.io/did-web/did.json"
       }
     }
   ]
