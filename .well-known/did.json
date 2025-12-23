@@ -5,13 +5,13 @@
   ],
   "id": "did:web:valerykalashnikov.github.io:did-web",
   "alsoKnownAs": [
-    "https://valerykalashnikov.github.io/"
+    "https://valerykalashnikov.github.io/did-web/"
   ],
   "verificationMethod": [
     {
-      "id": "did:web:valerykalashnikov.github.io#cluster-a-key-1",
+      "id": "did:web:valerykalashnikov.github.io:did-web#cluster-a-key-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:valerykalashnikov.github.io",
+      "controller": "did:web:valerykalashnikov.github.io:did-web",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -19,9 +19,9 @@
       }
     },
     {
-      "id": "did:web:valerykalashnikov.github.io#cluster-a-kex-1",
+      "id": "did:web:valerykalashnikov.github.io:did-web#cluster-a-kex-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:valerykalashnikov.github.io",
+      "controller": "did:web:valerykalashnikov.github.io:did-web",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "X25519",
@@ -30,23 +30,23 @@
     }
   ],
   "authentication": [
-    "did:web:valerykalashnikov.github.io#cluster-a-key-1"
+    "did:web:valerykalashnikov.github.io:did-web#cluster-a-key-1"
   ],
   "assertionMethod": [
-    "did:web:valerykalashnikov.github.io#cluster-a-key-1"
+    "did:web:valerykalashnikov.github.io:did-web#cluster-a-key-1"
   ],
   "keyAgreement": [
-    "did:web:valerykalashnikov.github.io#cluster-a-kex-1"
+    "did:web:valerykalashnikov.github.io:did-web#cluster-a-kex-1"
   ],
   "service": [
     {
-      "id": "did:web:valerykalashnikov.github.io#cluster-a-ecosystem",
+      "id": "did:web:valerykalashnikov.github.io:did-web#cluster-a-ecosystem",
       "type": "ClusterService",
       "serviceEndpoint": {
         "cluster": "Cluster-A",
         "purpose": "Ecosystem onboarding",
         "homepage": "https://valerykalashnikov.github.io/did-web/",
-        "didDocument": "https://valerykalashnikov.github.io/.well-known/did.json"
+        "didDocument": "https://valerykalashnikov.github.io/did-web/.well-known/did.json"
       }
     }
   ]
